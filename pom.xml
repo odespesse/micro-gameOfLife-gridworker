@@ -6,12 +6,30 @@
 
     <groupId>fr.olived19.microgameoflife.gridworker</groupId>
     <artifactId>micro-gameoflife-gridworker</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+
+    <name>microGameOfLifeGridWorker</name>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.6.2</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
     <dependencies>
         <dependency>
             <groupId>fr.olived19.microgameoflife.messagequeue</groupId>
             <artifactId>micro-gameoflife-messagequeue</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0</version>
         </dependency>
 
         <dependency>
