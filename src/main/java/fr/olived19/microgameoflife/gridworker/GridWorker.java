@@ -14,7 +14,7 @@ public class GridWorker {
 
     public static void main(String[] argv) {
         QueueConnection queueConnection = new QueueConnection();
-        queueConnection.setHost("localhost");
+        queueConnection.setHost("messagequeue");
         queueConnection.connect();
 
         final Automaton automaton = new Automaton();
