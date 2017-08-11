@@ -1,6 +1,8 @@
+package fr.olived19.microgameoflife.gridworker;
+
 import fr.olived19.microgameoflife.core.Cell;
 import fr.olived19.microgameoflife.core.World;
-import messages.NextWorldRequested;
+import fr.olived19.microgameoflife.messages.NextWorldRequested;
 
 import java.util.ArrayList;
 import java.util.List;

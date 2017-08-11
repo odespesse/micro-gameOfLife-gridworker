@@ -1,13 +1,13 @@
+package fr.olived19.microgameoflife.gridworker;
+
 import fr.olived19.microgameoflife.core.Automaton;
 import fr.olived19.microgameoflife.core.World;
-import messages.Message;
-import messages.NewWorldGenerated;
-import messages.NextWorldRequested;
-import queue.QueueConnection;
-import queue.RPCAction;
-import queue.RPCServer;
-
-import java.util.ArrayList;
+import fr.olived19.microgameoflife.messages.Message;
+import fr.olived19.microgameoflife.messages.NewWorldGenerated;
+import fr.olived19.microgameoflife.messages.NextWorldRequested;
+import fr.olived19.microgameoflife.queue.QueueConnection;
+import fr.olived19.microgameoflife.queue.RPCAction;
+import fr.olived19.microgameoflife.queue.RPCServer;
 
 
 public class GridWorker {
