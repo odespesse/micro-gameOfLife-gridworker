@@ -65,6 +65,12 @@
             <artifactId>micro-gameoflife-core</artifactId>
             <version>1.0</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.logback-extensions</groupId>
+            <artifactId>logback-ext-loggly</artifactId>
+            <version>0.1.4</version>
+        </dependency>
     </dependencies>
 
 </project>

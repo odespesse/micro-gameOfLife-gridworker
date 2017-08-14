@@ -19,3 +19,4 @@ We can start as many as we want because this service is stateless.
 - Java
 - microGameOfLifeMessageQueue
 - Maven
+- Logback
